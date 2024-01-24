@@ -1,0 +1,58 @@
+/* Container box styling */
+.containerbox{
+    background-color: #ffffff; /* Background color */
+    border: 1px solid #e0e0e0; /* Border color */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1); /* Box shadow for depth */
+    padding: 20px; /* Padding inside the container */
+    margin: 20px auto; /* Center the container horizontally */
+    max-width: 700px; /* Maximum width of the container */
+    font-family: Arial, sans-serif; /* Font family */
+    color: #333; /* Text color */
+}
+  
+  /* Optional: Add additional styling for heading inside the container */
+.containerbox h2 {
+    font-size: 24px; /* Heading font size */
+    margin-bottom: 16px; /* Spacing below the heading */
+}
+.containerbox ul {
+    list-style: none; /* Remove list bullets */
+    padding: 0; /* Remove list padding */
+}
+
+.containerbox li {
+    font-size: 16px; /* List item font size */
+    line-height: 1.5; 
+    margin-bottom: 12px; /* Spacing below list items */
+    display: flex; /* Display items in a flex container */
+    justify-content: space-between; /* Space between content and poll */
+    align-items: center; /* Center vertically */
+}
+
+/* Button styling */
+.button {
+    display: inline-block;
+    padding: 10px 20px; /* Adjust padding as needed */
+    background-color: #007bff; /* Button background color */
+    color: #fff; /* Button text color */
+    font-size: 14px; /* Button font size */
+    font-weight: bold; /* Button font weight */
+    text-align: center;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth hover effect */
+}
+  
+  /* Hover effect */
+.button:hover {
+    background-color: #0056b3; /* Darker background color on hover */
+}
+  
+
+
+  /* Optional: Add additional styling for paragraphs inside the container */
+  
+  /* Optional: Customize container colors, fonts, and other styles as needed */

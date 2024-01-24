@@ -1,0 +1,39 @@
+.pollcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+  
+.pollslider {
+    width: 120%;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+  
+.pollinput {
+    width: 100%;
+    appearance: none;
+    background: #f0f0f0;
+    height: 10px;
+    border-radius: 10px;
+    outline: none;
+    padding: 0;
+    margin: 0;
+}
+  
+.pollvalues {
+    display: flex;
+    justify-content: space-between;
+    width: 120%;
+    margin-top: 5px;
+    font-size: 14px;
+    color: #4f4f4f;
+}
+
+.pollinput::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background: #007bff;
+    cursor: pointer;
+  }

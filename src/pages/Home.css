@@ -1,0 +1,66 @@
+.home-div {
+    margin: 50px;
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.home-image {
+  height: 35%;
+  width: 35%;
+}
+
+.heading {
+  font-size: 40px;
+  font-weight: bold;
+  margin-left: 20px;
+}
+
+.sub-heading {
+  font-size: 18px;
+  margin-left: 20px;
+  text-align: justify;
+  margin-right: 40px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.home-button {
+  margin-left: 20px;
+  color: #fff;
+  background-color: #ffc801;
+  border: 0px;
+  padding: 10px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.team-div {
+  margin-top: 80px;
+  margin-left: 20px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.members-div {
+  margin-top: 2px;
+  display: flex;
+  flex-direction: row;
+  font-size: 17;
+  font-weight: 500;
+}
+
+.member {
+  margin-right: 20px;
+  margin-left: 0px;
+  margin-top: 5px;
+}
+
+.team-heading {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
